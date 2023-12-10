@@ -129,7 +129,7 @@ if authentication_status:
             current_time = now.strftime("**%H:%M:%S**")
             st.write('**ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ ΑΝΑΧΩΡΗΣΕΩΝ:**', current_time)
         # Specify the path to your Excel file
-        excel_file_path = 'Dromologia.xlsx'
+        excel_file_path = 'Dr@m@l@gia.xlsx'
 
         # Open the workbook
         workbook = openpyxl.load_workbook(excel_file_path)
