@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 import pickle
 from pathlib import Path
-
 import streamlit as st
-
 import datetime
 import PIL.Image
 from streamlit_option_menu import option_menu
