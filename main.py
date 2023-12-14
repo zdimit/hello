@@ -122,7 +122,7 @@ if selected == "Αναχωρήσεις":
         d1 = today.strftime("**%d/%m/%Y**")
         st.write('')
         st.write('**ΗΜΕΡΟΜΗΝΙΑ:**', d1)
-        now = datetime.now()
+        now = datetime.now(athens_timezone)
         current_time = now.strftime("**%H:%M:%S**")
         st.write('**ΤΕΛΕΥΤΑΙΑ ΕΝΗΜΕΡΩΣΗ ΑΝΑΧΩΡΗΣΕΩΝ:**', current_time)
     # Specify the path to your Excel file
