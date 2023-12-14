@@ -19,7 +19,7 @@ st.set_page_config(page_title='Πίνακας',
                        layout='wide', initial_sidebar_state='expanded')
 st.experimental_set_query_params(show_map=True, selected=["111hfffffjhjhfddddssjjhjhjhjhjjhjhfxdxszsszaasia",
                                                               "dfdfdfdsiopfjhh6556h56jhx;s5665656sdsisahhhhpppppp655655656dfdfdfhghghjhamerica"], )
-st_autorefresh(60000)
+st_autorefresh(120000)
 
 with st.sidebar.container():
     image = PIL.Image.open("logo.png")
